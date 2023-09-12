@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "902801366802",
+    "project_id": "yaku-e6100",
+    "storage_bucket": "yaku-e6100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902801366802:android:39a3a8b0dea48a540dddcb",
+        "android_client_info": {
+          "package_name": "com.example.yaku_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTdzo3vPehBF0rrscU7_3z1dINq8Mqh_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
