@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:yaku_user/firebase_options.dart';
 
 void main() async {
-
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
@@ -13,12 +13,26 @@ void main() async {
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
+
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    int cnt = 0;
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Column(
+            children: [
+              GestureDetector(
+                child: Container(
+
+                ),
+                onTap: (){
+                  
+                },
+              )
+            ],
+          )
         ),
       ),
     );
